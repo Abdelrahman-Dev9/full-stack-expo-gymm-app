@@ -54,6 +54,7 @@ export const login = async (req: Request, res: Response) => {
       data: {
         name: user.name,
         userId: user.id,
+        image: user.avatar,
       },
       message: "Login successful",
       token,
