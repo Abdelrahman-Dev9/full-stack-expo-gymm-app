@@ -11,6 +11,7 @@
     "@types/bun": "latest",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
     "@types/node": "^25.0.9",
     "nodemon": "^3.1.11",
     "prisma": "5",
@@ -22,8 +23,11 @@
   "dependencies": {
     "@prisma/client": "5",
     "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3"
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0"
   }
 }
